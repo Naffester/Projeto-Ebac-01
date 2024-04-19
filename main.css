@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+   
+}
+
+
+header {
+    padding: 16PX 0;
+    background-color: darkred;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .conteiner,
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner,.conteiner2 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.conteiner2 {
+   padding: 24px 0;
+   margin-bottom: 16px;
+   color: darkred;
+   text-align: center;
+   justify-content: space-between;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.conteiner2, h2 , p {
+    margin-bottom: 16px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.brands-list img {
+    height: 50px;
+}
+
+.brands-list2 img {
+    height: 60px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.brands-list2 li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section .conteiner2 {
+    padding: 24px 0;
+}
+
+
+section h2 {
+    margin-bottom: 16px;
+    color: darkred;
+    
+}
+
+section p {
+    margin-bottom: 16px;
+    color: darkred;
+}
+
+.store-front {
+    margin-right: 32px;
+    padding: 8px;
+    
+}
+
+
+
+.social-link {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-link img {
+    height: 24px;
+   
+}
+
+.social-link a {
+    text-decoration: none;
+   
+    
+}
+
+#contact .conteiner {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+
+
+form button {
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+}
+
+form button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    flex-shrink: 0;
+   
+  
+}
+
